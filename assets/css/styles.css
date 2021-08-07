@@ -158,6 +158,10 @@ input{
     outline: none;
 }
 
+.main{
+    overflow-y: hidden;
+}
+
 /* =========reusable CSS CLASSES=================== */
 .section{
     padding: 4.5rem 0 2.5rem;
@@ -1068,7 +1072,7 @@ input{
 }
 
 /* TALL SCREENS on mobiles y desktop */
-@media screen and (min-height: 721px){
+@media screen and (min-height: 768px){
     body {
         margin: 0;
     }
