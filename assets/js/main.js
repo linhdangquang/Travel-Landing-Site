@@ -37,7 +37,7 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*====================SWIPER DISCOVER===========================================*/
-var swiper = new Swiper(".discover__container", {
+function swiper()  { new Swiper(".discover__container", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -48,6 +48,9 @@ var swiper = new Swiper(".discover__container", {
       rotate: 0,
     },
   });
+}
+
+swiper();
 
 //   VIDEO
 const videoFile = document.getElementById('video-file'),
